@@ -17,6 +17,3 @@ Route::get('/', function () {
     return view('principal');
 });
 
-Route::get('nosotros', function () {
-    return view('nosotros');
-});
