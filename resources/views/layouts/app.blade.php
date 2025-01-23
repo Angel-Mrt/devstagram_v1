@@ -14,7 +14,7 @@
                 </h1>
                 <nav class="flex gap-4 items-center">
                     <a class="font-bold uppercase text-gray-600" href="#">Login</a>
-                    <a class="font-bold uppercase text-gray-600" href="crear-cuenta">Crear Cuenta</a>
+                    <a class="font-bold uppercase text-gray-600" href="{{ route('register') }}">Crear Cuenta</a>
                 </nav>
             </div>
         </header>
@@ -25,7 +25,7 @@
             @yield('contenido')
         </main>
 
-        <footer class="text-center p-5 text-gray-500 font-bold">
+        <footer class="mt-10 text-center p-5 text-gray-500 font-bold">
             DevStagram - Todos los derechos reservados {{ now()->year }}
         </footer>
 
