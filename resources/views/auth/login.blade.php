@@ -51,6 +51,9 @@ Inicia Sesión en DevStagram
                         <p class="bg-red-500 text-white my-2 rounded-lg p-2 text-center">{{ $message }}</p>
                     @enderror
                 </div>
+                <div class="mb-5">
+                    <input type="checkbox" name="remember"><label for="" class=" text-gray-500 text-sm"> Mantener mi Sesión abierta</label>
+                </div>
                 <input 
                     type = "submit"
                     value = "Iniciar Sesión"
