@@ -13,9 +13,14 @@ class PostController extends Controller
         $this->middleware('auth');
     }
     //
-    public function index(User $user){
+    public function index(User $user)
+    {
         return view('dashboard', [
             'user' => $user
         ]);
+    }
+    public function create()
+    {
+        dd('Creando Posts...');
     }
 }
